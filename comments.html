@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Assignment</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&amp;dfamily=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;ddisplay=swap" rel="stylesheet">
+        <link rel="stylesheet" href="websystems.css">
+    </head>
+    
+    <body>
+        <div class="banner">
+            <div><h1 class="logohead"><a class="active-link" href="index.html">WEB SYSTEMS</a></h1></div>
+        </div>
+                   <ul class="navbar">
+                       <li><a href="index.html">HOME</a></li>
+                       <li> <a href="past.html">PAST</a></li>
+                       <li ><a href="future.html">FUTURE</a></li>
+                       <li ><a class="active-link" href="comments.html">COMMENTS</a></li>
+                   </ul>
+    
+
+        <div class="content-container">
+            <div class="description-container">
+                <h1 class="headings">Aesthetic</h1>
+                <p>The website was designed with minimalism and aesthetic in mind. The colour pallete was chosen based on the images used 
+                    for the footer and the banner. There aren't too many elements on a single page, and elements are mainly stacked one on top of
+                    the other, making the site easy to read and navigate through.
+                </p>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="description-container">
+                <h1 class="headings">Fonts</h1>
+                <p>The font that was used throughout the website is "Abel" which is provided by the Google Fonts API, with default Sans Serif, if anything goes wrong.
+                   I could say that I chose because of visual clarity and appeal, but really, I just liked the way it looked.
+                </p>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="description-container">
+                <h1 class="headings">Accessibility</h1>
+                <p>This site can be navigated by either mouse or keyboard. Since there aren't a lot of hyperlinks in the page, it is easy
+                    to access certain pages within a few presses of the tab button. The font sizes, word spacing, and letter spacing, ensire that the 
+                    text on this site didnt look too squished, and may make it easier for users that are visually imapired in some way to read have
+                    an easier time reading the site. The colours on this site are not too bright (though they are mostly on the blue end of the spectrum of light)
+                    and should be nicer for users that live life in "Dark Mode". The text colours are all white or some denomination of white to stand out from the 
+                    rest of the background.
+                </p>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="description-container">
+                <h1 class="headings">Responsiveness</h1>
+                <p>The site should be able to be accessed across different platforms, since the page should scale based on the viewport of the device.
+                    The user should also expierence no problems zooming into the site, as some elements have percentage based height and width. The links also
+                    respond quick enough for normal use. Images used on the site are around 500k, but no more, so loading should not be an issue
+                    <footer></footer></p>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="description-container">
+                <h1 class="headings">Glossary of Colours</h1>
+                <table class="comment-table">
+                    <tr>
+                            <th>Color Code</th>
+                            <th>Usage</th>
+                    </tr>
+                    <tr>
+                        <td>#060524</td>
+                        <td>Colour of the navigation bar, and background colour of description-container</td>
+                    </tr>
+                    <tr>
+                        <td>#8A8ABF</td>
+                        <td>Used in tables. Even cell background colour.</td>
+                    </tr>
+                    <tr>
+                        <td>#45456F</td>
+                        <td>Used in tables. Odd cell background colour.</td>
+                    </tr>
+                    <tr>
+                        <td>#F5F5F5</td>
+                        <td>Text colour for the logo in the header and name-tag in the footer</td>
+                    </tr>
+                    <tr>
+                        <td>#FFFFFF</td>
+                        <td>Text colour for paragraphs, headings, and other text on the website.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="break"></div>
+
+        
+            <div class="description-container">
+            <h1 class="headings">Glossary of Used Selectors/ID/Classes</h1>
+                    <table class="comment-table">
+                        <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Usage</th>
+                        </tr>
+                        <tr>
+                            <td>html, body</td>
+                            <td>Element Selector</td>
+                            <td>Used to make borders neater, and get rid of overflow elements.</td>
+                        </tr>
+                        <tr>
+                            <td>.break</td>
+                            <td>Class</td>
+                            <td>used to create a breake between the last content box and the footer.</td>
+                        </tr>
+                        <tr>
+                            <td>p</td>
+                            <td>Element Selector</td>
+                            <td>Make the text settings on all paragraphs similar.</td>
+                        </tr>
+                        <tr>
+                            <td>.span-for-ed</td>
+                            <td>Class</td>
+                            <td>To make all text within the span bold.</td>
+                        </tr>
+                        <tr>
+                            <td>.headings</td>
+                            <td>Class</td>
+                            <td>Make all headings centred.</td>
+                        </tr>
+                        <tr>
+                            <td>.logohead</td>
+                            <td>Class</td>
+                            <td>Styles the logo "WEB SYSTEMS" and positions it.</td>
+                        </tr>
+                        <tr>
+                            <td>.logohead > a</td>
+                            <td>Pseudoclass</td>
+                            <td>Gets rid of default hyperlink styles. Animates a transition after hovered off, decreases size to original.</td>
+                        </tr>
+                        <tr>
+                            <td>.logohead > a:hover</td>
+                            <td>Pseudoclass</td>
+                            <td>Animates logo to become larger when being hovered.</td>
+                        </tr>
+                        <tr>
+                            <td>.banner</td>
+                            <td>Class</td>
+                            <td>Sets positioning, and background of banner.</td>
+                        </tr>
+                        <tr>
+                            <td>.name-tag</td>
+                            <td>Class</td>
+                            <td>Similar to what .logohead does. This time, its to position and style the copyright tag on the footer.</td>
+                        </tr>
+                        <tr>
+                            <td>.footer</td>
+                            <td>Class</td>
+                            <td>Similar to what .banner does, sets background image on the footer.</td>
+                        </tr>
+                        <tr>
+                            <td>.navbar</td>
+                            <td>Class</td>
+                            <td>Used for creating and styling the navigation bar. Aligns the tabs to be at the centre, and gets rid of list elemnts. </td>
+                        </tr>
+                        <tr>
+                            <td>.navbar > li</td>
+                            <td>Pseudoclass</td>
+                            <td>Spaces the tabs of the navigation bar, sets a transparent border at the bottom of the tabs.</td>
+                        </tr>
+                        <tr>
+                            <td>.navbar>li>a</td>
+                            <td>Pseudoclass</td>
+                            <td>Gets rid of default hyperlink styles. Flexible display, positioning will change when zooming in. Makes bottom border transparent when hovering off.</td>
+                        </tr>
+                        <tr>
+                            <td>.active-link</td>
+                            <td>Class</td>
+                            <td>Makes tab text bold to show what page a user is on.</td>
+                        </tr>
+                        <tr>
+                            <td>.active-link a</td>
+                            <td>Pesudoclass</td>
+                            <td>Removes the default hyperlink styles of the tab text while it is an .active-link.</td>
+                        </tr>
+                        <tr>
+                            <td>.navbar > li > a:hover</td>
+                            <td>Pesudoclass</td>
+                            <td>Animates in the transparent bottom border of the tabs.</td>
+                        </tr>
+                        <tr>
+                            <td>.content-container</td>
+                            <td>Class</td>
+                            <td>Used to hold other containers inside.</td>
+                        </tr>
+                        <tr>
+                            <td>#profile-img</td>
+                            <td>ID</td>
+                            <td>Used for the profile image in the gome page. Make borders round and fix the size.</td>
+                        </tr>
+                        <tr>
+                            <td>.description-container.</td>
+                            <td>Class</td>
+                            <td>Acts as a box for text, adds styles to it as well.</td>
+                        </tr>
+                        <tr>
+                            <td>.center</td>
+                            <td>Class</td>
+                            <td>Used to place images or items in the center relative to their boxes.</td>
+                        </tr>
+                        <tr>
+                            <td>.two-column-wrapper.</td>
+                            <td>Class</td>
+                            <td>Used to allow two divs to be placed on the same row.</td>
+                        </tr>
+                        <tr>
+                            <td>.image-container</td>
+                            <td>Class</td>
+                            <td>A box used to hold images, gicves some padding and margins to it.</td>
+                        </tr>
+                        <tr>
+                            <td>#future-list</td>
+                            <td>ID</td>
+                            <td>Used to style the list used in the Future page.</td>
+                        </tr>
+                        <tr>
+                            <td>.comment-table</td>
+                            <td>Class</td>
+                            <td>Used to style this table! Sets padding, positioning, fixes the size, </td>
+                        </tr>
+                        <tr>
+                            <td>.comment-table thread tr</td>
+                            <td>Pseudoclass</td>
+                            <td>Styles the top row of the table.</td>
+                        </tr>
+                        <tr>
+                            <td>comment-table th  </td>
+                            <td>Pseudoclass</td>
+                            <td>Creates padding between rows.</td>
+                        </tr>
+
+                        <tr>
+                            <td>.comment-table td </td>
+                            <td>Pseudoclass</td>
+                            <td>Creates padding between rows.</td>
+                        </tr>
+                      
+                        <tr>
+                            <td>tr:nth-child(odd/even)</td>
+                            <td>Pseudoclass</td>
+                            <td>Alternates the styles of the table row based on parity.</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        
+    
+    
+
+        <div class="break"></div>
+        <div class="footer">
+            <div class="footer-img"></div>
+                <div class="name-tag"><p> &#169; Darren Lo 2020</p></div>
+            </div>
+     
+        
+    </body>
+
+    
+</html>

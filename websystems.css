@@ -1,0 +1,273 @@
+/* general styles */
+
+/*makes fonts and styles in the body more uniform. Allows the pages to be scale
+when zoomed in*/
+html, body {
+    font-family: 'Abel', sans-serif;;
+    padding: 0px;
+    margin: 0px;
+    background-color:#39344b;
+    color: #ffffff;
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    
+}
+/*used for seperations in hte body*/
+.break{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*styles for paragraphs*/
+p {
+    display: block;
+    font-size: 1.5em;
+    color: white;
+    word-spacing: 5px;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+}
+
+/*used to make a span of text bold*/
+.span-for-ed{
+    color: #f5f5f5;
+}
+
+/*style for headings*/
+.headings{
+    text-align: center;
+    color: #ffffff;
+    word-spacing: 5px;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+}
+
+/*nav bar styles*/
+ /*styles the web systems logo positioning, etc*/
+
+.logohead{  
+    display: block;
+    font-size: 300%;
+    font-weight: 300;
+    position: relative;
+    top: 0%;
+    left: 5%;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px black;
+    display: inline;
+}
+
+/*remove hyperlinks styles from logo */
+.logohead > a{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+}
+
+/*hover animation, makes font bolder when hovering*/
+
+.logohead > a:hover{
+    font-size: 125%;
+    transition-duration: 0.2s;
+}
+
+/*positioning of the banner, style the banne,r make it span*/
+.banner{
+    background-size: cover;
+    padding: 50px;
+    background-image: url(images/header2.png);
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    height:10%;
+  
+}
+    
+/*copyright*/
+.name-tag{
+    position: relative;
+    left: 8px;
+    top: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/*footer stles*/
+
+.footer {
+    text-shadow: 2px 2px black;
+    color: whitesmoke;
+    background-attachment: fixed ;
+    background: url(images/footer3.png);
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 40px;
+    margin: 0px 0px 0px 0px;
+    max-width: 100%;
+    
+    
+}
+
+/*navigation bar*/
+
+.navbar {
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    background-color: #060524; 
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    box-shadow: 0 0 20px black ;
+    
+}
+
+/*spaces nav bar items, with styles*/
+.navbar > li{
+    display: inline-block;
+    padding: 15px 20px 15px 0px;
+    border-bottom: 1px solid transparent;
+    font-size: 1.5em;
+}
+
+/*removes hyperlink on idle nav bar item*/
+.navbar > li > a {
+    display: flex;
+    padding: 5px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+/*styles when on active nav bar page*/
+.active-link{
+    font-weight: bold;
+}
+
+/*removes hyperlinkk styleswhile active */
+.active-link a{
+    font-weight: bold !important;
+}
+
+/*animation for hovering over nav bar item*/
+.navbar > li > a:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+
+/* page contents for index*/
+
+/*organises content in the body*/
+.content-container{
+    
+    min-height: 50%;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+  
+}
+
+/*used in the home page. makes image round*/
+#profile-img{
+    padding: 10px;
+    align-content: center;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+/*style for textboxes within other divs*/
+.description-container{
+    display: block;
+    background-color: #060524;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 25%;
+    box-shadow: 0 0 20px black ;
+    
+}
+
+/*miscellaneous classes*/
+
+/*makes images at the centre of respective cells*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+  }
+
+/*the past*/
+
+/*style allows for image to be placed adjacent to text*/
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+/*style that hilds images*/
+.image-container img{
+    padding: 5px;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+/*style for lists*/
+.future-list{
+    font-size: 1.5em;
+    word-spacing: 5px;
+    line-height: 1.3;
+}
+
+/* comments*/
+
+/*style for the table (this one lol*/
+.comment-table{
+    margin: 25px 0;
+    font-size: 1.2em;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black ;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*style that makes table contents align left*/
+
+.comment-table tr thread{
+    text-align: left;
+    font-weight: bolder;
+    
+}
+
+/*style for cell seperation of the table*/
+.comment-table th , .comment-table td {
+    padding: 12px 15px;
+    letter-spacing: 0.05rem;
+
+}
+
+
+/*makes colors of tabler alternate colours*/
+tr:nth-child(odd) {background: #45456F;}
+tr:nth-child(even) {background:#040038;}
+                     
